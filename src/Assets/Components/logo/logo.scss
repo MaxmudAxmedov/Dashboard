@@ -1,0 +1,25 @@
+.logo-item{
+    display: flex;
+    align-items: center;
+    padding: 16px 24px 16px 32px;   
+    opacity: 0.6;
+}
+.logo-item:nth-child(6){
+    border-bottom: 1px solid #DFE0EB;
+}
+.logo-img{
+    width: 16px;
+    height: 16px;
+    margin-right: 24px;
+}
+
+.logo-title{
+    margin: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #DDE2FF;
+}

@@ -1,0 +1,43 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.head-content{
+    display: flex;
+    align-items: center;
+    padding-right: 32px;
+    border-right: 1px solid #DFE0EB;
+}
+
+.head-link{
+    width: 771px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #252733;
+    text-decoration: none;
+}
+
+.head-icons{
+    width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-icon{
+    width: 16px;
+    height: 16px;
+}
+.avatar{
+    width: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

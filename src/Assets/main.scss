@@ -1,0 +1,21 @@
+body{
+    background-color: #F7F8FC;
+    margin: 0;
+}
+.wrapper{
+    width: 1440px;
+    display: flex;
+    margin: 0 auto;
+}
+.container{
+    width: 1122px;
+    margin: 0 auto;
+    padding: 0 20px;
+   
+}
+.hero{
+    width: 1122px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

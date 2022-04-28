@@ -1,0 +1,39 @@
+.sidebar{
+    width: 255px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #363740;
+}
+
+.sidebar-top{
+    padding: 37px 43px 59px 32px;
+}
+.sidebar-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.sidebar-icon{
+    width: 32px;
+    height: 32px;
+}
+.sidebar-text{
+    margin: 0;
+    margin-left: 12px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #A4A6B3;
+    opacity: 0.7;
+}
+.sidebar-list{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

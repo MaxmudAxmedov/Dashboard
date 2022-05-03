@@ -1,0 +1,121 @@
+.table-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    border-top: 1.5px solid #DFE0EB;
+}
+
+.table-row:hover{
+    background-color: rgba(55, 81, 255, 0.04);
+   
+}
+
+
+.table-img{
+    width: 44px;
+    height: 44px;
+    margin-right: 24px;
+    border-radius: 50%;
+}
+.table-info{
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 40px;
+}
+
+.title{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;    
+    letter-spacing: 0.2px;
+    color: #252733;
+    margin: 0;
+    margin-bottom: 4px;
+}
+.condition{
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+    margin: 0;
+}
+
+.table-customer{
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 40px;
+}
+
+.name{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+    margin: 0;
+    margin-bottom: 4px;
+}
+.date{
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+    margin: 0;
+}
+
+.table-date{
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 40px;
+}
+.date-month{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+    margin-bottom: 4px;
+}
+.date-time{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+}
+
+.table-btn{
+    padding: 5px 12px;
+    border-radius: 100px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.table-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+}

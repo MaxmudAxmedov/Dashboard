@@ -1,5 +1,6 @@
 // js file import
-import Component from "../FooterComponent/Component";
+import Task from "../Tasks/Tasks";
+import Unresolved from "../Unresolved/Unresolved";
 
 // scss file import
 import "./footer.scss";
@@ -7,8 +8,8 @@ import "./footer.scss";
 function Footer () {
     return (
         <div className="footer">
-            <Component title="Unresolved tickets" group="Group:" support="Support" text="View details"/>
-            <Component title="Tasks" group="Today" text="View all" />
+            <Unresolved/>
+            <Task/>
         </div>
     )
 }

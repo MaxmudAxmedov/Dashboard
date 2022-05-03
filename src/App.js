@@ -1,42 +1,34 @@
 // JavaScripts file import
-import Header from "./Assets/Components/Header/Header";
-import Hero from "./Assets/Components/Hero/Hero";
-import Main from "./Assets/Components/Main/Main";
-import Footer from "./Assets/Components/Footer/Footer";
+import Header from './Assets/Components/Header/Header';
+import Overview from './Assets/Components/Overview/Overview';
+import Tickets from './Assets/Components/Tickets/Tickets';
+
 // main.scss import
 import "./Assets/main.scss";
 import Sidebar from "./Assets/Components/Sidebar/Sidebar";
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <div className="wrapper">
-      <div className="left">
-        <Sidebar/>
-      </div>
-
-      <div className="right">
-      <Header/>
-        <main>
-          <div className="container">
-
-            <div className="hero">
-              <Hero text="Unresolved" numbers={60}/>
-              <Hero text="Overdue" numbers={16}/>
-              <Hero text="Open" numbers={43}/>
-              <Hero text="On hold" numbers={64}/>
-            </div>
-
-            <Main/>
+      <BrowserRouter>
+       
+          <div className="left">
+            <Sidebar/>
           </div>
-        </main>
+    
+          <div className="right">
+            <Header />
 
-        <footer>
-          <div className="container">
-            <Footer/>
+            <Routes>
+              <Route path='/overview' element={<Overview/>}/>
+              <Route path='/tickets' element={<Tickets/>}/>
+            </Routes>
+
           </div>
-        </footer>
-      </div>
 
+      </BrowserRouter>
     </div>
   );
 }

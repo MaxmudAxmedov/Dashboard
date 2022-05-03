@@ -15,6 +15,7 @@ import Articles from "../../Img/img-sidebar/articles.png";
 import Settings from "../../Img/img-sidebar/settings.png";
 import Subscription from "../../Img/img-sidebar/Vector.png";
 
+
 function Sidebar () {
     return ( 
         <div className="sidebar">
@@ -27,14 +28,14 @@ function Sidebar () {
             </div>
 
             <ul className="sidebar-list">
-                <Logo img={Overview} title="Overview"/>
-                <Logo img={Tickets} title="Tickets"/>
-                <Logo img={Ideas} title="Ideas"/>
-                <Logo img={Contacts} title="Contacts"/>
-                <Logo img={Agents} title="Agents"/>
-                <Logo img={Articles} title="Articles"/>
-                <Logo img={Settings} title="Settings"/>
-                <Logo img={Subscription} title="Subscription"/>
+                <Logo page="/overview" img={Overview} title="Overview"/>
+                <Logo page="/tickets" img={Tickets} title="Tickets"/>
+                <Logo page="/overview" img={Ideas} title="Ideas"/>
+                <Logo page="/overview" img={Contacts} title="Contacts"/>
+                <Logo page="/overview" img={Agents} title="Agents"/>
+                <Logo page="/overview" img={Articles} title="Articles"/>
+                <Logo page="/overview" img={Settings} title="Settings"/>
+                <Logo page="/overview" img={Subscription} title="Subscription"/>
             </ul>
 
         </div>

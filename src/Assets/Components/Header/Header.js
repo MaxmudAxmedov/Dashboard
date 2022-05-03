@@ -17,8 +17,7 @@ function Header () {
                         <a className="head-link" href={"#link"}>Overview</a>
                         <div className="head-icons">
                             <img className="head-icon" src={Search} alt="search img"/>
-                            <img className="head-icon" src={New} alt="message img"/>
-                            
+                            <img className="head-icon" src={New} alt="message img"/> 
                         </div>
                     </div>
                     <Avatar className="avatar"/>

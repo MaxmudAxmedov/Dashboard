@@ -1,0 +1,87 @@
+.tickets{
+    background-color: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.tickets-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+}
+.tickets-title{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+    margin: 0;
+}
+.tickets-sorts{
+    width: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tickets-sort{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #4B506D;
+    margin: 0;
+}
+.tickets-filter{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #4B506D;
+    margin: 0;
+}
+
+
+// table
+
+.tickets-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-thead{
+    display: block;
+    padding: 12px 0;
+}
+.table-tr{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+.table-title{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+
+.table-title:nth-child(1){
+    width: 440px;
+    text-align: left;
+}
+.table-title:nth-child(2){
+    width: 208px;
+}
+.table-title:nth-child(3){
+    width: 140px;
+}
+.table-title:nth-child(4){
+    width: 104px;
+    text-align: left;
+}
